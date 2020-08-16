@@ -1,0 +1,448 @@
+1586055151667	geckodriver	INFO	geckodriver 0.21.0
+1586055151698	geckodriver	INFO	Listening on 127.0.0.1:4864
+1586055154706	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofile.YLv6Uide3u4W"
+*** You are running in headless mode.
+1586055155264	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586055155823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586055155823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586055155823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586055155823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586055155889	Marionette	TRACE	Received observer notification profile-after-change
+1586055155944	Marionette	TRACE	Received observer notification toplevel-window-ready
+1586055155992	Marionette	TRACE	Received observer notification command-line-startup
+1586055155992	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1586055156118	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586055158493	Marionette	TRACE	Received observer notification marionette-startup-requested
+1586055158493	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1586055158559	Marionette	TRACE	All scripts recorded.
+1586055158559	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1586055158560	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1586055158560	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1586055158560	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1586055158560	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1586055158562	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1586055158562	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1586055158562	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1586055158563	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1586055158565	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1586055158565	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1586055158565	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1586055158565	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1586055158566	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1586055158566	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1586055158567	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1586055158567	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1586055158567	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1586055158567	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1586055158568	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1586055158568	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1586055158568	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1586055158568	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1586055158569	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1586055158569	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1586055158569	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1586055158570	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1586055158628	Marionette	INFO	Listening on port 4873
+1586055158628	Marionette	DEBUG	Marionette is listening
+1586055158859	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:4881
+1586055158883	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1586055158884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586055158928	Marionette	TRACE	[19] Frame script loaded
+1586055158930	Marionette	TRACE	[19] Frame script registered
+1586055158937	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"95301a78-9f46-459b-8e76-d71624e7b288","capabilities":{"browserName":"firefox","browserVersion":"74.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1586055158942	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":20000}]
+1586055158943	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1586055158947	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.ximalaya.com/revision/album?albumId=9723091"}]
+1586055158954	Marionette	TRACE	[19] Received DOM event beforeunload for about:blank
+1586055159681	Marionette	TRACE	[19] Received DOM event pagehide for about:blank
+1586055159734	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for https://www.ximalaya.com/revision/album?albumId=9723091
+1586055159742	Marionette	TRACE	[19] Received DOM event pageshow for https://www.ximalaya.com/revision/album?albumId=9723091
+1586055159749	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1586055159760	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1586055159771	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html platform=\"win\" class=\"theme-light\" dir=\"ltr\"><head><meta http-equiv=\"Content-Security-Policy ... lient-jsonview/lib/require.js\" data-main=\"resource://devtools-client-jsonview/viewer-config.js\"></script></body></html>"}]
+1586055159816	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+1586055159816	Marionette	DEBUG	0 <- [1,5,null,[]]
+1586055159818	Marionette	DEBUG	0 -> [0,6,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1586055159819	Marionette	INFO	Stopped listening on port 4873
+1586055159912	Marionette	TRACE	Received observer notification quit-application
+1586055159922	Marionette	DEBUG	0 <- [1,6,null,{"cause":"shutdown"}]
+1586055159966	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react-redux
+http://requirejs.org/docs/errors.html#scripterror
+1586055160460	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1586055160461	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1586055160461	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1586055160461	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1586055160461	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1586055160461	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1586055160461	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1586055160462	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1586055160462	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1586055160462	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1586055160463	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1586055160463	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1586055160463	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1586055160463	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1586055160463	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1586055160463	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1586055160463	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1586055160463	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1586055160463	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1586055160463	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1586055160463	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1586055160463	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1586055160464	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1586055160464	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1586055160464	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1586055160464	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1586055160464	Marionette	DEBUG	Marionette stopped listening
+1586055222253	geckodriver	INFO	geckodriver 0.21.0
+1586055222259	geckodriver	INFO	Listening on 127.0.0.1:4918
+1586055225299	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofile.uQ3cJOR76GZm"
+*** You are running in headless mode.
+1586055225835	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1586055226415	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1586055226416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1586055226416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1586055226416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1586055226498	Marionette	TRACE	Received observer notification profile-after-change
+1586055226557	Marionette	TRACE	Received observer notification toplevel-window-ready
+1586055226598	Marionette	TRACE	Received observer notification command-line-startup
+1586055226598	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1586055226721	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1586055229093	Marionette	TRACE	Received observer notification marionette-startup-requested
+1586055229094	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1586055229183	Marionette	TRACE	All scripts recorded.
+1586055229183	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1586055229184	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1586055229184	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1586055229184	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1586055229184	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1586055229185	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1586055229186	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1586055229186	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1586055229186	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1586055229186	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1586055229186	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1586055229187	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1586055229187	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1586055229187	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1586055229188	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1586055229188	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1586055229189	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1586055229189	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1586055229189	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1586055229189	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1586055229190	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1586055229191	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1586055229191	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1586055229191	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1586055229191	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1586055229191	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1586055229191	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1586055229192	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1586055229192	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1586055229192	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1586055229193	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1586055229193	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1586055229259	Marionette	INFO	Listening on port 4926
+1586055229259	Marionette	DEBUG	Marionette is listening
+1586055229460	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:4932
+1586055229462	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1586055229463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1586055229501	Marionette	TRACE	[19] Frame script loaded
+1586055229504	Marionette	TRACE	[19] Frame script registered
+1586055229514	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"203448ad-bb51-495c-9a99-76a2b735a993","capabilities":{"browserName":"firefox","browserVersion":"74.0" ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+1586055229518	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":20000}]
+1586055229519	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1586055229521	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.ximalaya.com/revision/album?albumId=9723091"}]
+1586055229532	Marionette	TRACE	[19] Received DOM event beforeunload for about:blank
+1586055230466	Marionette	TRACE	[19] Received DOM event pagehide for about:blank
+1586055230506	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for https://www.ximalaya.com/revision/album?albumId=9723091
+1586055230527	Marionette	TRACE	[19] Received DOM event pageshow for https://www.ximalaya.com/revision/album?albumId=9723091
+1586055230531	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1586055230538	Marionette	DEBUG	0 -> [0,4,"WebDriver:GetPageSource",{}]
+1586055230548	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html platform=\"win\" class=\"theme-light\" dir=\"ltr\"><head><meta http-equiv=\"Content-Security-Policy ... lient-jsonview/lib/require.js\" data-main=\"resource://devtools-client-jsonview/viewer-config.js\"></script></body></html>"}]
+1586055230589	Marionette	DEBUG	0 -> [0,5,"WebDriver:CloseWindow",{}]
+1586055230589	Marionette	DEBUG	0 <- [1,5,null,[]]
+1586055230591	Marionette	DEBUG	0 -> [0,6,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1586055230591	Marionette	INFO	Stopped listening on port 4926
+1586055230653	Marionette	TRACE	Received observer notification quit-application
+1586055230665	Marionette	DEBUG	0 <- [1,6,null,{"cause":"shutdown"}]
+1586055230696	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react-redux
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+1586055231118	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1586055231118	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1586055231118	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1586055231118	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1586055231118	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1586055231118	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1586055231119	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1586055231119	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1586055231120	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1586055231121	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1586055231121	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1586055231122	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1586055231122	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1586055231122	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1586055231122	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1586055231122	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1586055231122	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1586055231122	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1586055231122	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1586055231122	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1586055231122	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1586055231122	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1586055231123	Marionette	DEBUG	Marionette stopped listening
+1597550278078	geckodriver	INFO	Listening on 127.0.0.1:2935
+1597550280758	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofilex5UKBB"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597550284386	Marionette	INFO	Listening on port 2943
+1597550284494	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597550284930	Marionette	INFO	Stopped listening on port 2943
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/JsonToolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/reps/reps
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/TextToolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/LiveText
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/Headers
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/HeadersToolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-shared/components/tree/TreeHeader.js, line 11: TypeError: dom is undefined
+1597550327013	geckodriver	INFO	Listening on 127.0.0.1:2987
+1597550330057	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofile10NAHk"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597550333445	Marionette	INFO	Listening on port 2995
+1597550333760	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597550334361	Marionette	INFO	Stopped listening on port 2995
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1597550803151	geckodriver	INFO	Listening on 127.0.0.1:3150
+1597550806191	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofileIquR7z"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597550809670	Marionette	INFO	Listening on port 3159
+1597550809886	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597550810338	Marionette	INFO	Stopped listening on port 3159
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+1597551800989	geckodriver	INFO	Listening on 127.0.0.1:3707
+1597551804019	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofileYctLoX"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597551807398	Marionette	INFO	Listening on port 3716
+1597551807754	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597551808276	Marionette	INFO	Stopped listening on port 3716
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react-dom-factories
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/ObjectProvider
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeRow
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeHeader
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/scroll
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/JsonToolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/reps/reps
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/TextToolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/LiveText
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/Headers
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/HeadersToolbar
+http://requirejs.org/docs/errors.html#scripterror
+1597552316453	geckodriver	INFO	Listening on 127.0.0.1:4484
+1597552319491	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofileEzgVDl"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597552323015	Marionette	INFO	Listening on port 4494
+1597552323194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597552323888	Marionette	INFO	Stopped listening on port 4494
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1597552424790	geckodriver	INFO	Listening on 127.0.0.1:4547
+1597552427890	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofilejrRV8y"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597552431384	Marionette	INFO	Listening on port 4556
+1597552431583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597552432021	Marionette	INFO	Stopped listening on port 4556
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+1597552591825	geckodriver	INFO	Listening on 127.0.0.1:4615
+1597552594855	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofileKzKVEV"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597552598277	Marionette	INFO	Listening on port 4623
+1597552598579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597552599029	Marionette	INFO	Stopped listening on port 4623
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+console.error: services.settings: 
+  main/messaging-experiments Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1597552654604	geckodriver	INFO	Listening on 127.0.0.1:4670
+1597552657664	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofileHVL6Ua"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597552660993	Marionette	INFO	Listening on port 4678
+1597552661417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1597552661972	Marionette	INFO	Stopped listening on port 4678
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/SearchBox
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/reps/Toolbar
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/TreeCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tree/LabelCell
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/focus
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react-redux
+http://requirejs.org/docs/errors.html#scripterror
+1597553106209	geckodriver	INFO	Listening on 127.0.0.1:4782
+1597553109259	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WHJWNAVY\\AppData\\Local\\Temp\\rust_mozprofile8Zvz2w"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1597553112595	Marionette	INFO	Listening on port 4790
+1597553113012	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/vendor/react-prop-types
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/JsonPanel
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/TextPanel
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/jsonview/components/HeadersPanel
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: resource://devtools-client-jsonview/lib/require.js, line 170: Error: Script error for: devtools/client/shared/components/tabs/Tabs
+http://requirejs.org/docs/errors.html#scripterror
+1597553128780	Marionette	INFO	Stopped listening on port 4790
