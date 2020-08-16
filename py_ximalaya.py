@@ -2,7 +2,7 @@ import WebSpider as WS
 import json
 
 USE_BROWSER = True
-BROWSER_NAME = "Firefox"
+BROWSER_NAME = "Edge"
 
 ALBUM_INFO_URL_FMT="https://www.ximalaya.com/revision/album?albumId={0}"
 ALBUM_LIST_URL_FMT="https://www.ximalaya.com/revision/album/v1/getTracksList?albumId={0}&pageNum=1&pageSize=1000"
