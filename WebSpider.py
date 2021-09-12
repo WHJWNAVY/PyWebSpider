@@ -69,12 +69,17 @@ class WebSpider(object):
     def __Decode(self, s):
         return s.encode('gbk', 'ignore').decode('gbk', 'ignore')
 
+    # #去掉非法字符
+    def __NameFilter(self, s):
+        return re.sub('[ \\/:*?"<>|\r\n]', '-', s) # 去掉非法字符
+
     def __AutoPath(self, path_name=None):
         filepath = os.path.join(os.path.expanduser("~"), 'Desktop')
         if path_name == None:
             datestr = datetime.datetime.now().strftime("%Y-%m-%d")
             filepath = os.path.join(filepath, datestr)
         else:
+            path_name = self.__NameFilter(path_name)
             filepath = os.path.join(filepath, path_name)
         if os.path.exists(filepath) != True:
             os.makedirs(filepath)  # 如果指定的文件夹不存在就递归创建
@@ -85,6 +90,7 @@ class WebSpider(object):
             timestr = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
             filename = "{0}.{1}".format(timestr, ext)
         else:
+            file_name = self.__NameFilter(file_name)
             filename = "{0}.{1}".format(file_name, ext)
         return filename
 
