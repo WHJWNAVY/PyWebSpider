@@ -12,14 +12,19 @@ TRACK_INFO_URL_FMT="https://www.ximalaya.com/revision/play/v1/audio?id={0}&ptype
 
 def xmly_ws_filter_json(html):
     album_info_html = html
+    album_info_json = None
     if USE_BROWSER == True:
-        if BROWSER_NAME == "Edge":
-            album_info_html = ws.FilterHtml(album_info_html, "/html/body/pre/text()")
-        elif BROWSER_NAME == "Firefox":
-            album_info_html = ws.FilterHtml(album_info_html, "/html/body/div/div/text()")
-        album_info_html = album_info_html[0]
+        album_info_json = ws.FilterHtml(album_info_html, "//pre/text()")
+        if (album_info_json == None) or (len(album_info_json) <= 0):
+            album_info_json = ws.FilterHtml(album_info_html, '//div[@id="json"]/text()')
 
-    return album_info_html
+        # print(album_info_html)
+        if (album_info_json != None) and (len(album_info_json) >= 1):
+            album_info_json = album_info_json[0]
+    else:
+        album_info_json = album_info_html
+
+    return album_info_json
 
 def xmly_get_album_info(ws, album_id):
     album_info_url = ALBUM_INFO_URL_FMT.format(album_id)
